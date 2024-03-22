@@ -1,3 +1,15 @@
-def change():
-    expense = 23.75
-    money = 100
+expense = 23.75
+money = 100
+vuelto = float(money - expense)
+print ("Ingresar expense:")
+print (expense)
+print ("Dinero recibido")
+print (money)
+print("")
+print ("vuelto")
+print("")
+print ("Pesos:")
+print (int(vuelto))
+print ("Centavos:")
+centavos = ((float(vuelto)-int(vuelto))*100)
+print (int(centavos))
