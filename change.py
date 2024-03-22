@@ -1,12 +1,12 @@
 expense = 23.75
 money = 100
 vuelto = float(money - expense)
-print ("Ingresar expense:")
+print ("Ingresar gasto:")
 print (expense)
 print ("Dinero recibido")
 print (money)
 print("")
-print ("vuelto")
+print ("Vuelto")
 print("")
 print ("Pesos:")
 print (int(vuelto))
